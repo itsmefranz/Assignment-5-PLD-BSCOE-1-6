@@ -1,5 +1,7 @@
+def gradePercentage():
+    percentage= float(input("Please indicate students' grade: "))
 
-grade= int(input("Please indicate student grade: "))
+corres= gradePercentage()
 
 if grade >= 64 and  grade <= 74:
     print("Failure")
