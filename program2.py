@@ -6,4 +6,6 @@ smallest= 0
 
 if a<b and a<c:
     smallest= a
-      
+else:
+    if b<a and b<c:
+        smallest= b
