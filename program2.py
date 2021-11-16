@@ -9,3 +9,8 @@ if a<b and a<c:
 else:
     if b<a and b<c:
         smallest= b
+    else:
+        if c<a and c<b:
+            smallest= c
+
+print(f'{smallest}, is the smallest of the three numbers.')
