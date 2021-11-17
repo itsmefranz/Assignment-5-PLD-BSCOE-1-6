@@ -1,6 +1,6 @@
 #Create a program that will ask for grade percentage.
 def gradePercentage():
-    percentage= float(input("Please indicate students' percentage: "))
+    percentage= float(input("Please indicate student's percentage: "))
     return percentage
 
 #Display the equivalent Grade/Mark and Description
@@ -38,9 +38,12 @@ else:
                                 print("Grade/Mark: 2.75")
                                 print("Description: Satisfactory")
                             else:
-                                if  grade >= 65 and  grade <= 74:
-                                    print("Grade/Mark: 5.0")
-                                    print("Description: Failure")
+                                if grade == 75:
+                                    print("Grade/Mark: 3.0")
+                                    print("Description: Passing")
                                 else:
-                                    if grade == 75:
-                                        print("Passing")
+                                    if  grade >= 65 and  grade <= 74:
+                                        print("Grade/Mark: 5.0")
+                                        print("Description: Failure")
+                                    else:
+                                        print("Incomplete/Withdrawn/Dropped")
