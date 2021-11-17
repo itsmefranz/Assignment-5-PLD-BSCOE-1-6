@@ -20,9 +20,13 @@ else:
                 print("Grade/Mark: 1.75")
                 print("Description: Very Good")
             else:
-                if  grade >= 65 and  grade <= 74:
-                    print("Grade/Mark: 5.0")
-                    print("Description: Failure")
+                if grade >= 85 and grade <= 87:
+                    print("Grade/Mark: 2.0")
+                    print("Description: Good")
                 else:
-                    if grade == 75:
-                        print("Passing")
+                    if  grade >= 65 and  grade <= 74:
+                        print("Grade/Mark: 5.0")
+                        print("Description: Failure")
+                    else:
+                        if grade == 75:
+                            print("Passing")
