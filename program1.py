@@ -1,3 +1,4 @@
+import math
 #Create a program that will ask for grade percentage.
 def gradePercentage():
     percentage= float(input("Please indicate student's percentage: "))
@@ -5,6 +6,7 @@ def gradePercentage():
 
 #Display the equivalent Grade/Mark and Description
 grade= gradePercentage()
+print(round(grade))
 
 if grade >= 97 and grade == 100:
     print("Grade/Mark: 1.0")
