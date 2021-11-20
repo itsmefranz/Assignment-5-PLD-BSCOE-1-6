@@ -7,4 +7,6 @@ else:
         print("Teen")
     else:
         if age== 18:
-            print("")
+            print("Debut")
+        else:
+            print("Adult")
